@@ -1,0 +1,207 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="X-UA-Compatible" content="IE=9" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta id="ctl00_copyright" name="copyright" content="Copyright © Bolsas y Mercados Españoles 2013" /><link href="/estilos.css" rel="stylesheet" type="text/css" /><title>
+	Bolsa de Madrid - Resumen de Índices
+</title><script type="text/javascript">
+var id = "esp", bolsa = "BMadrid"; window.id = "esp"; window.AnalyticsID = "UA-35966870-2"; window.horaAct = "Tue, 15 Oct 2013 10:23:00 GMT";</script><link id="ctl00_RSSLink1" rel="alternate" type="application/rss+xml" href="/esp/aspx/RSS/RSS.ashx?feed=Todo" title="Bolsa de Madrid: Todos los contenidos agregados" /><link id="ctl00_RSSLink2" rel="alternate" type="application/rss+xml" href="/esp/aspx/RSS/RSS.ashx?feed=NotasPrensa" title="Bolsa de Madrid: Notas de Prensa" /><link id="ctl00_RSSLink3" rel="alternate" type="application/rss+xml" href="/esp/aspx/RSS/RSS.ashx?feed=Regulacion" title="Bolsa de Madrid: Regulación: Circulares e Instrucciones Operativas" /><link id="ctl00_RSSLink4" rel="alternate" type="application/rss+xml" href="/esp/aspx/RSS/RSS.ashx?feed=Indices" title="Bolsa de Madrid: Avisos Índices IBEX" /><link id="ctl00_RSSLink5" rel="alternate" type="application/rss+xml" href="/esp/aspx/RSS/RSS.ashx?feed=Revista" title="Bolsa de Madrid: Artículos de la Revista Bolsa" />
+<script type="text/javascript" src="/js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="/js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="/js/Master.js"></script>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<div id="Base"><table cellpadding="0" cellspacing="0" align="center"><tr class="noimpr">
+ <td colspan="6" id="CabeceraArr">
+  <div id="Idiomas"><ul><li class="mclick"><a href="/?id=ing" target="_self">&nbsp;English&nbsp;</a></li></ul></div>
+  <div id="MenuSup"><ul><li class="mclick"><a href="/esp/BMadrid/Contacto.aspx" target="_self">&nbsp;Contacto&nbsp;</a></li><li class="mclick"><a href="/esp/Inversores/Agenda/HorarioMercado.aspx" target="_self">&nbsp;Horario Mercado&nbsp;</a></li><li class="mclick"><a href="/esp/aspx/Inversores/Agenda/Calendario.aspx" target="_self">&nbsp;Calendario bursátil&nbsp;</a></li><li class="mclick"><a href="https://twitter.com/GrupoBME" target="_blank">&nbsp;<img src="/images/IconoTwitter.png" border="0" align="absmiddle" alt="Twitter" />&nbsp;</a></li><li class="mclick"><a href="http://www.slideshare.net/grupobme/" target="_blank">&nbsp;<img src="/images/IconoSlideshare.png" border="0" align="absmiddle" alt="Slideshare" />&nbsp;</a></li><li class="mclick"><a href="http://www.flickr.com/photos/archivobme/" target="_blank">&nbsp;<img src="/images/IconoFlickr.png" border="0" align="absmiddle" alt="Flickr" />&nbsp;</a></li><li class="mclick"><a href="http://www.linkedin.com/company/grupo-bme" target="_blank">&nbsp;<img src="/images/IconoLinkedin.png" border="0" align="absmiddle" alt="Linkedin" />&nbsp;</a></li><li class="mclick"><a href="http://www.youtube.com/user/GrupoBME?ob=0&feature=results_main" target="_blank">&nbsp;<img src="/images/IconoYoutube.png" border="0" align="absmiddle" alt="YouTube" />&nbsp;</a></li><li class="mclick"><a href="/esp/RSS.aspx" target="_self">&nbsp;RSS&nbsp; &nbsp;<img src="/images/IconoRSS.png" border="0" align="absmiddle" alt="RSS" />&nbsp;</a></li></ul></div>
+ </td>
+</tr><tr valign="top">
+ <td rowspan="3" class="BaseIzq noimpr"><div></div></td>
+ <td rowspan="3" class="BaseSep noimpr"></td>
+ <td class="BaseMenu" id="CabeceraLogo">
+  <a href="/?id=esp"><img src="/images/Base/LogoBMadrid.gif" border="0" alt="Bolsa de Madrid" /></a>
+ </td>
+ <td id="Cabecera" class="noimpr">
+  <div id="LogoBME"><a href="http://www.bolsasymercados.es/" target="_blank"><img src="/images/Base/LogoBMEBlanco.png" width="118" height="45" border="0" alt="Bolsas y Mercados Españoles" /></a></div>
+  <div class="finFila"></div>
+  <div id="TopMensajes">
+   <table cellpadding="0" cellspacing="0" width="650" height="27" align="left"><tr><td style="margin: 0 0 0 40px; vertical-align: middle;">
+    <div><a></a></div>
+   </td></tr></table>
+  </div>
+  <div id="BuscadorCab"><form id="formBusq" method="get" action="/esp/aspx/Empresas/BusqEmpresas.aspx">
+   <input type="text" name="busq" style="width: 150px; font-size: 9px;" value="buscador de empresas" autocomplete="off" />
+   <div id="divBusq" style="display: none;"></div>
+   <div class="BtnGris mclick" style="display: inline; margin-left: 10px;"><div class="BtnBuscarDcha" style="display: inline; font-size: 9px;">
+   <a href="javascript:document.forms.formBusq.submitbusq();">&nbsp;BUSCAR</a></div></div>
+  </form></div>
+  <div id="LineaBuscadorCab"></div>
+ </td>
+ <td rowspan="3" class="BaseSep noimpr"></td>
+ <td rowspan="3" class="BaseDcha noimpr"><div></div></td>
+</tr><tr>
+ <td colspan="2" id="SeparacionCap">
+  <div class="noimpr"></div>
+  
+<div class="seg"><a href="/?id=esp" target="_self">Inicio</a> / <a href="#" target="_self">ÍNDICES</a> / <span class="segUlt">Resumen de Índices &gt;</span></div>
+ </td>
+</tr><tr valign="top">
+ <td class="BaseMenu noimpr">
+<script type="text/javascript" src="/js/MenuIzq.js"></script>
+<div id="MenuIzq" class="MenuIzq noimpr">
+
+</div>
+<script language="javascript">
+var MenuIzqLoad_MenusSel = [ "m229","m230" ];
+var MenuIzqLoad_MenusDespl = [  ];
+MenuIzqLoad(true,'General');
+</script>
+</td>
+ <td class="BaseCont">
+  
+  
+<div class="col6"><form name="aspnetForm" method="post" action="/esp/aspx/Indices/Resumen.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="zW/h6MnIGKDEeav62djYLa022cE3rZBC2xJHiHFWTBf0vB7hjAZqnzFGuE60xV51CDiQ2WKB6eEWFkQ7N5mU8Jes3stKujoyfFbjW1MTuBIOAZxXnrkWb176TcigwR0dkp+HL0BCIinnPwASoCeym2ggT1gH5iE0qd3bZGvuujolxQzW" />
+</div>
+
+<div class="TituloPag">Resumen de Índices</div>
+
+<div>
+	<table class="TblPort" cellspacing="0" cellpadding="3" align="Center" border="0" id="ctl00_Contenido_tblÍndices" style="width:85%;border-collapse:collapse;margin-bottom: 20px;">
+		<tr align="center">
+			<th scope="col">Nombre</th><th scope="col">Anterior</th><th scope="col">&#218;ltimo</th><th scope="col">% Dif.</th><th scope="col">M&#225;ximo</th><th scope="col">M&#237;nimo</th><th scope="col">Fecha</th><th scope="col">Hora</th><th class="Ult" scope="col">% Dif.<br/>Año 2013</th>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174;</td><td>9.696,00</td><td>9.724,70</td><td class="DifClSb">0,30</td><td>9.739,00</td><td>9.699,20</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">19,07</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX MEDIUM CAP&#174;</td><td>13.039,50</td><td>13.124,00</td><td class="DifClSb">0,65</td><td>13.128,20</td><td>13.075,00</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">43,66</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX SMALL CAP&#174;</td><td>4.850,70</td><td>4.902,00</td><td class="DifClSb">1,06</td><td>4.922,20</td><td>4.893,60</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">44,73</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX TOP Dividendo&#174;</td><td>2.636,80</td><td>2.647,00</td><td class="DifClSb">0,39</td><td>2.650,70</td><td>2.639,00</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">31,89</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; con Dividendos</td><td>21.758,70</td><td>21.823,20</td><td class="DifClSb">0,30</td><td>21.855,10</td><td>21.765,90</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">23,75</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; con Div. Netos</td><td>19.336,20</td><td>19.393,50</td><td class="DifClSb">0,30</td><td>19.421,90</td><td>19.342,60</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">22,75</td>
+		</tr><tr align="right">
+			<td class="DifFlBj" align="left">IBEX 35&#174; Inverso</td><td>3.883,00</td><td>3.869,90</td><td class="DifClBj">-0,34</td><td>3.881,70</td><td>3.865,80</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClBj Ult">-21,91</td>
+		</tr><tr align="right">
+			<td class="DifFlBj" align="left">IBEX 35&#174; Doble Inverso</td><td>1.055,20</td><td>1.048,10</td><td class="DifClBj">-0,67</td><td>1.054,50</td><td>1.045,80</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClBj Ult">-40,95</td>
+		</tr><tr align="right">
+			<td class="DifFlBj" align="left">IBEX 35&#174; Triple Inverso</td><td>153,10</td><td>151,60</td><td class="DifClBj">-0,98</td><td>152,90</td><td>151,10</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClBj Ult">-56,76</td>
+		</tr><tr align="right">
+			<td class="DifFlBj" align="left">IBEX 35&#174; Inverso X5</td><td>526,90</td><td>518,00</td><td class="DifClBj">-1,69</td><td>526,00</td><td>515,20</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClBj Ult">-78,98</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; Doble Apalancado</td><td>7.216,50</td><td>7.264,90</td><td class="DifClSb">0,67</td><td>7.280,40</td><td>7.221,10</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">36,49</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; Doble Apalancado Bruto</td><td>18.221,10</td><td>18.343,10</td><td class="DifClSb">0,67</td><td>18.382,20</td><td>18.232,80</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">47,47</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; Doble Apalancado Neto</td><td>17.080,40</td><td>17.194,70</td><td class="DifClSb">0,67</td><td>17.231,40</td><td>17.091,30</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">45,08</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; Triple Apalancado</td><td>2.323,60</td><td>2.346,90</td><td class="DifClSb">1,00</td><td>2.354,40</td><td>2.325,80</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">51,53</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; Triple Apalancado Neto</td><td>12.948,80</td><td>13.078,60</td><td class="DifClSb">1,00</td><td>13.120,40</td><td>12.961,10</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">66,12</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; Apalancado Neto X5</td><td>8.667,50</td><td>8.812,20</td><td class="DifClSb">1,67</td><td>8.858,80</td><td>8.681,10</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">98,16</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; Capped Net Return</td><td>19.339,80</td><td>19.397,10</td><td class="DifClSb">0,30</td><td>19.425,50</td><td>19.346,30</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">23,05</td>
+		</tr><tr align="right">
+			<td class="DifFlIg" align="left">IBEX 35&#174; Impacto Div</td><td>332,50</td><td>332,50</td><td class="DifClIg">- </td><td>332,50</td><td>332,50</td><td align="center">14/10/2013</td><td align="center">17:38</td><td class="DifClIg Ult">- </td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; Volatilidad Objetivo 10% Est&#225;ndar</td><td>178,20</td><td>178,50</td><td class="DifClSb">0,17</td><td>178,70</td><td>178,20</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">10,32</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; Volatilidad Objetivo 12% Est&#225;ndar</td><td>183,80</td><td>184,20</td><td class="DifClSb">0,22</td><td>184,40</td><td>183,80</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">12,11</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; Volatilidad Objetivo 15% Est&#225;ndar</td><td>192,60</td><td>193,20</td><td class="DifClSb">0,31</td><td>193,30</td><td>192,70</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">14,93</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; Volatilidad Objetivo 18% Est&#225;ndar</td><td>190,80</td><td>191,50</td><td class="DifClSb">0,37</td><td>191,70</td><td>190,90</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">18,58</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; Volatilidad Objetivo 10% Financiado</td><td>129,40</td><td>129,60</td><td class="DifClSb">0,15</td><td>129,70</td><td>129,40</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">9,18</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; Volatilidad Objetivo 12% Financiado</td><td>131,60</td><td>131,90</td><td class="DifClSb">0,23</td><td>132,00</td><td>131,60</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">12,45</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; Volatilidad Objetivo 15% Financiado</td><td>140,20</td><td>140,60</td><td class="DifClSb">0,29</td><td>140,70</td><td>140,20</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">14,87</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">IBEX 35&#174; Volatilidad Objetivo 18% Financiado</td><td>134,60</td><td>135,10</td><td class="DifClSb">0,37</td><td>135,20</td><td>134,60</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">18,20</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">FTSE4Good IBEX</td><td>9.268,20</td><td>9.317,60</td><td class="DifClSb">0,53</td><td>9.320,00</td><td>9.286,20</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">26,04</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">FTSE Latibex All Share</td><td>2.214,70</td><td>2.223,40</td><td class="DifClSb">0,39</td><td>2.234,00</td><td>2.207,20</td><td align="center">14/10/2013</td><td align="center">17:38</td><td class="DifClBj Ult">-14,29</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">FTSE Latibex TOP</td><td>4.021,60</td><td>4.027,90</td><td class="DifClSb">0,16</td><td>4.047,50</td><td>3.975,10</td><td align="center">14/10/2013</td><td align="center">17:38</td><td class="DifClBj Ult">-9,33</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">FTSE Latibex BRASIL</td><td>9.179,70</td><td>9.233,30</td><td class="DifClSb">0,58</td><td>9.319,90</td><td>9.158,50</td><td align="center">14/10/2013</td><td align="center">17:38</td><td class="DifClBj Ult">-8,93</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">I.G.B.M.</td><td>990,77</td><td>993,60</td><td class="DifClSb">0,29</td><td>994,48</td><td>992,00</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">20,48</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">I.G.B.M. Total</td><td>2.993,85</td><td>3.003,70</td><td class="DifClSb">0,33</td><td>3.003,70</td><td>3.003,70</td><td align="center">14/10/2013</td><td align="center">17:39</td><td class="DifClSb Ult">25,66</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">BCN GLOBAL 100 (Base 1986)</td><td>793,60</td><td>796,68</td><td class="DifClSb">0,39</td><td>796,87</td><td>793,74</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">23,66</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">BCN GLOBAL 100 (Base 1963)</td><td>2.039,67</td><td>2.047,59</td><td class="DifClSb">0,39</td><td>2.048,09</td><td>2.040,03</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">23,66</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">BCN MID-50</td><td>16.437,64</td><td>16.577,30</td><td class="DifClSb">0,85</td><td>16.608,14</td><td>16.467,53</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">47,12</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">BCN PROFIT-30</td><td>13.024,43</td><td>13.047,71</td><td class="DifClSb">0,18</td><td>13.075,91</td><td>13.017,43</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">24,55</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">BCN ROE-30</td><td>18.365,82</td><td>18.449,52</td><td class="DifClSb">0,46</td><td>18.474,51</td><td>18.380,03</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">25,70</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">BCN PER-30</td><td>20.631,77</td><td>20.702,65</td><td class="DifClSb">0,34</td><td>20.727,52</td><td>20.650,81</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">31,26</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">BCN INDEXCAT</td><td>16.045,62</td><td>16.051,70</td><td class="DifClSb">0,04</td><td>16.082,65</td><td>16.017,07</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">32,11</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">BCN TOP-EUR</td><td>1.160,80</td><td>1.163,45</td><td class="DifClSb">0,23</td><td>1.165,27</td><td>1.160,68</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">16,35</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">BCN TOP-5</td><td>1.148,18</td><td>1.150,62</td><td class="DifClSb">0,21</td><td>1.152,97</td><td>1.147,48</td><td align="center">15/10/2013</td><td align="center">10:20</td><td class="DifClSb Ult">15,06</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">BILBAO</td><td>1.593,96</td><td>1.599,45</td><td class="DifClSb">0,34</td><td>1.600,86</td><td>1.596,27</td><td align="center">15/10/2013</td><td align="center">10:19</td><td class="DifClSb Ult">20,17</td>
+		</tr><tr align="right">
+			<td class="DifFlSb" align="left">VALENCIA</td><td>1.113,28</td><td>1.116,56</td><td class="DifClSb">0,29</td><td>1.116,56</td><td>1.113,84</td><td align="center">14/10/2013</td><td align="center">17:53</td><td class="DifClSb Ult">23,45</td>
+		</tr>
+	</table>
+</div>
+
+</form></div>
+
+  <div class="finFila"></div>
+ </td>
+</tr><tr valign="top">
+ <td class="PieIzq noimpr"></td>
+ <td class="PieFondo BaseSep noimpr"></td>
+ <td colspan="2" class="PieFondo"><div>
+  <div id="PieOps" class="noimpr"><ul><li class="mclick"><a href="/esp/aspx/Comun/MapaWeb.aspx" target="_self">&nbsp;Mapa web&nbsp;</a></li><li class="mclick"><a href="javascript:Disclaimer('esp')" target="_self">&nbsp;Disclaimer&nbsp;</a></li><li class="mclick"><a href="/esp/BMadrid/AvisoLegal.aspx" target="_self">&nbsp;Aviso Legal&nbsp;</a></li><li class="mclick"><a href="/esp/PoliticaCookies.aspx" target="_self">&nbsp;Políticas de Cookies&nbsp;</a></li></ul></div>
+  <div id="PieWebs" class="noimpr"><form id="formWeb">
+    <select name="ctl00$webs" id="ctl00_webs">
+	<option value="">Webs del grupo BME</option>
+	<option value="http://www.bolsasymercados.es">BOLSAS Y MERCADOS ESPA&#209;OLES</option>
+	<option value="http://www.bmerv.es">BME RENTA VARIABLE</option>
+	<option value="http://www.bolsamadrid.es">BOLSA DE MADRID</option>
+	<option value="http://www.borsabcn.es">BOLSA DE BARCELONA</option>
+	<option value="http://www.bolsabilbao.es">BOLSA DE BILBAO</option>
+	<option value="http://www.bolsavalencia.es">BOLSA DE VALENCIA</option>
+	<option value="http://www.aiaf.es/">BME RENTA FIJA</option>
+	<option value="http://www.bmemarketdata.es/">BME MARKET DATA</option>
+	<option value="http://www.bmeinnova.com">BME INNOVA</option>
+	<option value="http://www.bmeclima.es">BME CLIMA</option>
+	<option value="http://www.iberclear.es/">IBERCLEAR</option>
+	<option value="http://www.infobolsa.es">INFOBOLSA</option>
+	<option value="http://www.institutobme.es">INSTITUTO BME</option>
+	<option value="http://www.latibex.com">LATIBEX</option>
+	<option value="http://www.bolsasymercados.es/mab">MAB</option>
+	<option value="http://www.meff.com/">MEFF</option>
+	<option value="http://www.regis-tr.com/">REGIS-TR</option>
+	<option value="http://www.visual-trader.com">VISUAL TRADER</option>
+</select>
+    <div class="BtnGris mclick" style="display: inline; margin-left: 10px;"><div class="BtnFlechaBlancaDcha" style="display: inline;">
+    <a href="javascript:var o=document.forms.formWeb.ctl00_webs.value;if(o && o.length>0) window.open(o,'_blank');void(0);">
+    &nbsp;IR</a></div></div>
+  </form></div>
+  <div id="PieCopyright">Copyright © Bolsas y Mercados Españoles 2013</div>
+ </div></td>
+ <td class="PieFondo BaseSep noimpr"></td>
+ <td class="PieDcha noimpr"></td>
+</tr></table>
+</div>
+</body>
+</html>

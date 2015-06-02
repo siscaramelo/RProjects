@@ -1,0 +1,21 @@
+Presión Sanguinea
+========================================================
+### P. Giráldez M.
+
+ A continuación representamos la presión sanguinea tomada durante una semana mañana y noche:
+
+```{r}
+load("C:/Users/pgiraldez/Documents/R/Preassure.RData")
+summary(Preassure)
+```
+
+Este es el gráfico asociado:
+
+```{r fig.width=7, fig.height=6}
+
+library(ggplot2)
+g <-ggplot(Preassure,aes(Sistolica,Diastolica))
+g+geom_point()+geom_smooth(method="loess")
+
+```
+
